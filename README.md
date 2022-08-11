@@ -1,3 +1,6 @@
+# Creating-EC2-Instance-using-Ansible-Playbook-and-Terraform
+
+
 ### Now configure the credentials
 - In AWS console create a IAM user with no console (AWS login on browser)
 - create credentials access key and secure access key. copy this creds at a secure place as secure key is visible only during creation
