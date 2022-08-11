@@ -17,9 +17,9 @@
 - This will create creds file inside .aws folder which contains this creds
 
 #### Once configure is done then run files 
-```sh
-$ ansible-playbook Instance.yml
-$ terraform init
-$ terraform plan 
-$ terraform apply
-```
+  ```sh
+  $ ansible-playbook Instance.yml
+  $ terraform init
+  $ terraform plan 
+  $ terraform apply
+  ```
