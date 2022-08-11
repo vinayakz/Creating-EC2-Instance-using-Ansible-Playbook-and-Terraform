@@ -3,13 +3,13 @@
    gather_facts: True
    tasks: 
    	- name: creating ec2 instance from ansible playbook
-   		ec2:
-   			key_name: Lampserver
-   			region: ap-south-1
-   			instance_type: t2.micro
-   			image: ami-0bcf5425cdc1d8a85
-   			wait: yes
-   			group: default
-   			count: 1
-   			vpc_subnet_id: subnet-0f706f67
-   			assign_public_ip: yes
+    ec2:
+      key_name: Lampserver
+      region: ap-south-1
+      instance_type: t2.micro
+      image: ami-0bcf5425cdc1d8a85
+      wait: yes
+      group: default
+      count: 1
+      vpc_subnet_id: subnet-0f706f67
+      assign_public_ip: yes
